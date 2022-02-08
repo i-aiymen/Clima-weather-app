@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class LoadingScreen extends StatefulWidget {
-
   @override
   _LoadingScreenState createState() => _LoadingScreenState();
 }
@@ -12,9 +11,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     return Scaffold(
       body: Center(
         child: ElevatedButton(
-          onPressed: () {
-            //Get the current location
-          },
+          onPressed: () {},
           child: Text('Get Location'),
         ),
       ),
